@@ -1,0 +1,57 @@
+/* Mitch Henderson */
+
+body {
+    font-family: sans-serif, Serif; /* Creating design customization #3 */
+}
+
+#pageHeader { /* Creating design customization #2 */
+    width: 100%;
+    text-align: center;
+    color: #106c4d;
+    font-size: 40px;
+}
+
+#imageContainer {  /* Creating design customization #5 (adding an image of paper) */
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imageContainer img {
+    width: 100px;
+}
+
+#menuContainer {
+    width: 20%;
+    position: fixed;
+}
+
+#menuContainer, #infoContainer {
+    border: 2px dotted gray;
+}
+
+.menu-item {
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    color: coral; /* Creating design customization #4 */
+}
+
+.menu-item:hover {
+    font-style: italic; /* Creating design customization #6 */
+}
+
+.menu-item p {
+    margin: 0;
+    border: 1px solid green;
+}
+
+#infoContainer {
+    width: 70%;
+}
+
+.info-section {
+    padding: 200px; /* Creating design customization #1 */
+    margin-left: 20%;
+}
+

@@ -1,0 +1,35 @@
+
+
+For the second part, you will turn in your finished menu.html and menu.css files. Use whatever text editor you are most comfortable developing html/css using.
+
+Create two files: menu.html and menu.css. Place these in the same directory.
+Add a title and a link element in the header of menu.html to link it to menu.css.
+In menu.html, create one parent div (this will be the main menu container) with at least 4 divs inside of it (these will be the menu items). Write some text in <p> elements in the menu item divs. You choose what text!
+Change the menu div so that its width is 20% of the page.
+Give each menu item a margin of 5px on the top, bottom, and right sides.
+Give each menu item a total padding of 10px. Make sure to change or account for the default settings of the <p> elements.
+Give your menu div & its children borders.
+Create a second div at the same level as your menu div. This div will contain the information on your page.
+Put the same number of sections in your info div as you have menu options.
+Float the divs so that they appear next to each other. You will need to adjust the width of your info div.
+Use <a> elements to link each menu item to its corresponding text section.
+Hint: search how you can use <a> elements and element ids to link to somewhere in your page.
+Next, we want to force the menu to stay in the same position when the page is scrolled. Use the position attribute to make this happen.
+If your text appears behind the menu when you do this, think about where your divs are floating. Make it so that the text is not behind the menu.
+Change the borders so that the menu div and the info div have the same style but the menu items have a different style.
+Keeping the main layout and mechanics of the page the same, use your creative design skills to personalize it.
+Some ideas:
+Change the font.
+Change the colors.
+Make the links so that they look different.
+Put some images in.
+Give the body of the page a main header.
+Use the :hover selector to change the appearance of an/some element/s when you hover over them. Make hover do something:
+change color
+make rounded corners
+. Change the padding and margin of the item
+Things that you should not change: margin & padding in the menu; relative position of the menu to the info; the mechanics of how the page functions.
+To receive credit for this part, you must change at least 5 different things. Changing the font for all section headers would count as changing 1 thing.
+Comment the changes that you have made in your css file.
+Warning: make sure that all css rules that you use are written in menu.css. When we load the page, we want to see what you see.
+Double check to ensure that you have used classes and ids appropriately both in your html and to assign attribute values in your css.

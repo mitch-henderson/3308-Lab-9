@@ -1,0 +1,54 @@
+Mitch Henderson
+
+Download boxes.html and boxes.css from moodle. Place both of them in the same directory, then open boxes.html using either Mozilla Firefox or Google Chrome.
+Right click on the webpage to inspect the elements (“Inspect Element” in Firefox, “Inspect” in Chrome).
+Give div1 a new background color.
+
+What css rule did you use?
+I used this rule:
+#div1 {
+    background-color: red;
+}
+
+How would you write it in a css file so that only this div gets the new background color?
+I would use an ID selector, as I did in the rule I included above.
+There is only one HTML element with the ID "div1", so the selector #div1 will only select that one div.
+
+Edit the margin and padding attributes of the divs.
+What does changing the margin do? What does changing the padding do?
+Margin creates visual spacing around the element.  Padding creates visual spacing within the element.  In particular, spacing between core content and the border.
+
+Now change the background color of the <p> element inside div 1 to yellow.
+Change the margin and padding of the yellow <p>.
+What happens if the margin is greater than 100px?
+If we set the margin to greater than 100px it is too big to fit inside of its containing div.
+
+
+What happens if the padding is greater than 100px?
+The additional padding pushes it out of the margin and border
+
+Keeping the padding greater than 100px, change the overflow of div1.
+What is the difference between scroll and hidden?
+With scroll, we are able to mouse over the p tag area and scroll around the boundaries of the p tag area. With hidden, we don't see the rest of the box, we only see what is immediately visible.
+
+Refresh the page to return the divs to their original states.
+Give all divs the float: left attribute.
+What order are they in?
+Giving the divs the float: left puts them into a horizontal row
+
+What if they all have the float: right attribute instead?
+Using float: right attribute on the other hand reverses the order of the boxes and places them on the right hand side.
+
+Keeping all divs with the float: right attribute, give each one in turn the two attributes float: left and clear: right.
+Describe the relative positions of the boxes with each combination.
+For the positions of the boxes when we alternate float: left and clear: right
+For first div: 1 left, 2 and 3 on the right (3 to the left of 2)
+For second div: 1 is in the upper right, and 2 is on the left, one spot down, and 3 is below box 1.
+For third div: boxes 2 and 1 appear in upper right, and box 3 is on the left one spot down.
+
+Refresh the page to return the divs to their original states. Give the body element a margin value of 0px.
+What changes?
+We see the boxes go right up to the very edge of the computer screen. There is no more built in margin of 8 px around the whole page.
+
+What does this tell you about the default margin value?
+This tells us that the default margin exists, and probably was built to give the user a little bit of room around the screen.
